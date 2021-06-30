@@ -109,7 +109,7 @@ if __name__ ==  '__main__':
 
     CUDA = torch.cuda.is_available()
 
-    num_classes = 82
+    num_classes = 80
     classes = load_classes('data/coco.names') 
 
     #Set up the neural network
