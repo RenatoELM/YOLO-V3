@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
     CUDA = torch.cuda.is_available()
 
-    num_classes = 80
+    num_classes = 82
 
     CUDA = torch.cuda.is_available()
     
