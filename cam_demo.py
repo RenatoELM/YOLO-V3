@@ -73,7 +73,7 @@ def arg_parse():
 if __name__ == '__main__':
     cfgfile = "cfg/yolov3.cfg"
     weightsfile = "yolov3.weights"
-    num_classes = 82
+    num_classes = 80
 
     args = arg_parse()
     confidence = float(args.confidence)
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     
     
-    num_classes = 82
+    num_classes = 80
     bbox_attrs = 5 + num_classes
     
     model = Darknet(cfgfile)
